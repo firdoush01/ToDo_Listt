@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To_Do-list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <h1>To Do List</h1>
+      </div>
+      <div class="content">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Enter task..."
+          class="enterTask"
+        />
+        <div class="listBox">
+          <ul id="taskList" type="1">
+            <li  class="checked"></li>
+          </ul>
+        </div>
+
+        <button onclick="addTask()" class="btn">Add Note</button>
+        <!--           
+        <button type="button" id="addBtn" class="btn">Add Note</button>
+        <button type="button" id="delBtn" class="btn">Delete Note</button> -->
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
